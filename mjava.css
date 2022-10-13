@@ -1,0 +1,413 @@
+*,body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+ 
+    width: 100%;
+   /* background-color: #585b5c;*/
+    color:white;
+    height: 80px;
+    /*----تجربة-----*/
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,.11)!important;
+    
+}
+.menu #logo{
+    float: right;
+    height: 30px;
+    padding: 15px 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+#imglogo
+{
+  width: 200px;
+}
+.menu-item:focus{
+    border: 2px solid rgba(255, 0, 119, 0.87);
+   /* color: rgba(0,0,0);*/
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+}
+.menu-item:hover{
+    border: 2px solid rgba(240, 111, 6, 0.74);
+   /* color: rgba(0,0,0);*/
+     border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;  
+    color: rgb(177, 167, 32); 
+}
+
+.menu > ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+   
+}
+.menu > ul > li{
+    float: right;
+    padding-top: 10px;
+    
+}
+.menu-item{
+  
+    display: inline-block;
+    padding: 30px 20px;
+    height: 30px;
+    color:rgb(15, 165, 170);
+    /*color: black;*/
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+}
+/*.divp{
+  
+    margin-top: 60px;
+    background-color:rgba(4, 116, 97, 0.418) ;
+    font-size: 0px;
+    height: 25px;
+}*/
+
+.imgjs{
+    width: 350px;
+    padding-top: 40px;
+}
+.videos{
+    width: 40%;
+   padding-left: 30px;
+   border-radius: 20px ; 
+}
+
+#img21{
+  margin-top: 90px;
+  float: right;
+  margin-right: 12%;
+  width: 5%;
+}
+#h21{
+ float: right;
+ padding-top: 7%;
+ padding-right: 3%;
+ font-family: 'Amiri', serif;
+ font-family: 'El Messiri', sans-serif;
+/* font-family: 'Cairo', sans-serif;*/
+ font-size: 250%;
+ color:rgb(6, 107, 102) ;
+}
+#ul{
+  padding-top: 200px;
+  padding-right: 300px;
+  vertical-align: middle;
+  font-family: 'Cairo', sans-serif;
+  
+}
+#li{
+  list-style-type: none;
+  /*font-family: 'Cairo', sans-serif;*/
+  /*font-family: 'Amiri', serif;*/
+  font-family: 'Amiri', serif;
+ font-family: 'El Messiri', sans-serif; 
+ vertical-align: middle;
+ font-size: 22px;
+ /*color:rgb(110, 7, 64) ;*/
+ /*color: rgb(114, 138, 8);*/
+ color: #e04718 ;
+ 
+}
+/*  --------------------------------------------------------------------*/
+.pragra1{
+  padding-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(91, 92, 92);
+ /*color: #a53331 ;*/
+}
+
+/*------اقراء ---------------*/
+#imgf{
+  float: right;
+  margin-right: 12%;
+  width: 6%;
+}
+#hf1{
+ float: right; 
+ margin-right: 3%;
+ font-size: 250%;
+ /*color:rgb(112, 8, 69) ;*/
+ color: #ef5350 ;
+ /* color: #ec407a ;*/
+ padding-top: 10px;
+ font-family: 'El Messiri', sans-serif; 
+}
+/*
+#jj{
+float: right;
+padding-right: 20%;
+border-radius: 50px;
+border-right: 50%;
+width: 10%;
+}
+#pjj{
+  font-size: 20px;
+  float: right;
+  padding-right: 7%;
+  direction: rtl;
+  padding-top: 1%;
+  font-family: 'El Messiri', sans-serif; 
+  color:rgb(6, 107, 102) ;
+}
+
+.divdiv{
+  margin-top: 12%;
+  background-color: rgb(15, 165, 170);
+  margin-bottom: 30%;
+  
+}
+*/
+.ij {
+  float: right;
+  border-radius: 50%;
+  padding-left: 50px;
+  width: 190px;
+}
+.po{
+    margin-top: 13%;
+    margin-right: 20%;
+    margin-bottom: 10%; 
+    font-size: 25px;
+    font-family: 'El Messiri', sans-serif; 
+    color:rgb(6, 107, 102) ;
+    direction: rtl;
+   
+}
+/*-------------------------------------*/
+.div2{
+  width: 100%px;
+  height: 100px;
+  color: white;
+  background-color:rgb(31, 162, 167) ;
+  font-size: 30px;
+  margin-top: 100px;  
+  margin-bottom: 10px; 
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*-----------------*/
+
+.timeline{
+  margin-bottom: 50px;
+}
+summary{
+ /* color: rgb(148, 115, 9);*/
+ color: #c05230 ;
+ 
+ font-family: 'El Messiri', sans-serif; 
+}
+summary::-webkit-details-marker {
+  display: none
+}
+summary:focus {
+  /*اخفاء اطار summary*/
+ outline: none;
+}
+summary{
+  cursor: pointer;
+}
+
+summary:after {
+  background: rgb(8, 168, 160); 
+  
+ /* border-radius: 5px; */
+  border-radius: 50%;
+  content: "+"; 
+  color: #fff; 
+  float: right; 
+  font-size: 20px;
+ /* margin: -5px 10px 0 0;*/
+ margin: 0 0 -5px 10px; 
+  padding: 0; 
+  text-align: center; 
+  width: 22px;
+  height: 26px;
+  
+}
+details[open] summary:after {
+  content: "-";
+}
+
+/*-----------------------------button-----------------------------------------*/
+
+ .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    padding-right: 130px;
+    padding-top: 140px;
+  }
+  
+  .button {
+    min-width: 300px;
+    min-height: 60px;
+   /* font-family: 'Nunito', sans-serif;*/
+   font-family: 'Cairo', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+   /* color: #313133;*/
+    color: white;
+    background: #4FD1C5;
+    background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
+  /*--------------------مخطط الدراسة------------------------------------------*/
+
+
+  /*-------------------------------------------*/
+  @media (min-width:400px) and (max-width:600px)
+  {
+
+    .imgjs
+    {
+      display: none;
+    }
+    .menu #logo{
+      padding-right: 20px;
+     }
+     #imglogo
+    {
+     width: 100px;  
+    }
+    .menu-item{
+      font-size: 16px;
+    }
+  /*--------------------------------*/
+  .videos{
+    width: 60%;
+   padding-left: 30px;
+   border-radius: 20px ; 
+    }
+    .wrap {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      float: right;
+      padding-right: 130px;
+      padding-top: 50px;
+    }
+  /*------------------------------------------------------*/  
+  #h21{
+    float: right;
+    padding-top: 16%;
+    font-size: 240%;
+   }
+   #ul{
+    padding-top: 235px;
+    padding-right: 50px;
+    vertical-align: middle;
+    font-family: 'Cairo', sans-serif;
+    
+  }
+  #li{
+    list-style-type: none;
+   font-size: 15px;
+  
+   
+  }
+  
+  /*--------------------------------------------------------------*/  
+  #hf1{
+   padding-top: 0;
+  }
+  /*--------------------------------------*/  
+  .ij {
+    float: right;
+    border-radius: 5%;
+    padding-left: 30px;
+    width: 90px;
+  }
+  .po{
+      margin-top: 25%;
+      margin-right: 10%;
+      margin-bottom: 10%; 
+      font-size: 10px;
+      font-family: 'El Messiri', sans-serif; 
+      color:rgb(6, 107, 102) ;
+      direction: rtl;
+     
+  }
+    /*-----------------------------------------*/  
+    
+  }

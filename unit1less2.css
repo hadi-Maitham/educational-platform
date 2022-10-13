@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+ }
+ .sid{
+    position: fixed;
+     right: 0;
+     width: 270px;
+     height: 100%;
+    /* background-color: rgb(26, 144, 148);*/
+    background-color: rgb(33, 43, 51);
+ }.sid header{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+   /* background-color: rgb(28, 113, 116);*/
+   background-color: rgba(64, 80, 97, 0.767);
+    user-select: none;
+    font-family: 'Cairo', sans-serif;
+ }
+ .sid ol a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 80px;
+    font-size: 20px;
+    color: white;
+    padding-right: 50px;
+    box-sizing: border-box;
+    border-top: 0px solid rgba(255, 255, 255, 0.637);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.637);
+    transition: .4s;
+    font-style: italic;
+ }
+ ol li:hover a{
+    padding-right: 40px;
+ }
+ 
+ .ba{
+   /* background-color: rgb(31, 162, 167);*/
+   background-color: rgb(46, 61, 73);
+  height: 40px;
+  
+ }
+ .p1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+   
+ }
+ video{
+   width: 950px;
+   border-radius: 10px;
+   margin-left: 90px;
+   outline: none;
+   margin-top: 10px;
+}
+.menutoggle{
+   direction: rtl;
+   font-size: 50px;
+   padding-right: 30px;
+   background-color: #f0f4c3 ;
+   display: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+img
+{
+   width: 0px;
+   height: 0px;
+}
+/*-----------------------------------------------*/
+@media (min-width:400px) and (max-width:600px)
+{
+   /*-----------------------divsid------------------------*/
+   img
+   {
+      width: 50px;
+      height: 40px;
+   }
+  .sid
+  {
+   width: 500px;
+   height: 10%;
+   position: absolute;
+   /*transform: scaleY(0);*/
+  }
+  /*.sid.active
+  {
+    transform: scaleY(1);
+  }*/
+  /*-----------heder-----------------------*/
+  .sid header{
+   font-size: 30px;
+   line-height: 100px;
+   background-color:#9ccc65;
+   color: black;
+  }
+ /*-------------ol-------------------*/
+ ol {
+   transform: scaleY(0);
+   background-color: #dce775;
+ }
+ ol.active
+ {
+   transform: scaleY(1);
+  
+ }
+ .sid ol a{
+   display: block;
+   height: 100%;
+   width: 100%;
+   font-size: 25px;
+   color: black;
+ }
+   /*---------------div menutoggle-----------------------*/
+
+  .menutoggle{
+   display: block;
+   }
+  
+  /*-----------p1-----------------------------*/ 
+  .ba{
+   margin-top: 100px;
+   background-color: #fad193;
+   
+   }
+   .p1{
+      color: black;
+   }
+   /*-------------------------------*/
+  p{
+   margin-right: 20px;
+   margin-top: 40px;
+   font-size: 15px;
+  }
+  /*---------------------------------*/
+  video{
+   width: 400px;
+   border-radius: 10px;
+    margin-left: 10px;
+    outline: none;
+    margin-top: 10px;
+    } 
+}
+ 

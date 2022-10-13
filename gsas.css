@@ -1,0 +1,198 @@
+*,body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background-color: rgb(236, 236, 236);*/
+    background-color: whitesmoke;
+}
+.menu{
+    width: 100%;
+   /* background-color: #585b5c;*/
+    background-color: rgb(31, 162, 167) ;
+   /*background-color: rgb(226,178,146);*/
+    color:white;
+    height: 80px; 
+}
+.menu > ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+    padding-right: 70px;
+    
+}
+.menu > ul > li{
+    float: right;
+    margin-left: 20px;
+}
+.menu-item{
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    height: 55px;
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    /*font-family: 'Reem Kufi', sans-serif;*/
+    /*font-family: 'Aref Ruqaa', serif;*/
+    font-family: 'Cairo', sans-serif;
+    line-height: 58px;
+}
+.img1{
+ margin-top: 40px;
+ margin-bottom: 50px;
+ margin-left: 550px;
+}
+.menu-item:focus{
+    border: 2px solid rgb(0, 255, 255);
+   /* color: rgba(0,0,0);*/
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+}
+.menu-item:hover{
+    border: 2px solid rgb(0, 255, 255);
+   /* color: rgba(0,0,0);*/
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;   
+}
+.imgclose{
+    margin-top: 10px;
+   /* position: fixed;*/
+}
+/*.box1{
+    width: 60%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(31, 162, 167);
+    margin-top: 30px;
+    margin-right: 10px;
+    float: right;
+    height: 50px;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 20px;  
+    
+}*/
+/*--------------------------------------------------------------*/
+.allbox{
+    display: flex;
+}
+.img2{
+    width: 40%;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 50%;
+    
+}
+article{
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+   /* background-color: whitesmoke;*/
+  /* background-color: white;*/
+  background-color: rgb(253, 253, 253);
+   border-radius: 20px;
+   box-shadow: 10px 10px 5px rgb(130, 172, 31);
+}
+h1{
+    width: 80%;
+    padding-top: 30px;
+    text-align: right;
+    padding-left: 80px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    color: rgba(238, 17, 127, 0.938);
+}
+p{
+    padding-top: 30px;
+    width: 70%;  
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif;
+    padding-bottom: 40px;
+    color: teal;
+    padding-left: 20%;
+}
+
+
+/*-----------------------------------------*/
+
+@media (min-width:400px) and (max-width:600px)
+{      
+    .img1{
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+       }
+
+    /*-----------------------*/
+    .menu{
+        width: 100%;
+       /* background-color: #585b5c;*/
+        background-color: rgb(31, 162, 167) ;
+       /*background-color: rgb(226,178,146);*/
+        color:white;
+        height: 80px; 
+    }
+    .menu > ul{
+        margin: 0;
+        padding: 0;
+        float: right;
+        list-style-type: none;
+        padding-right: 10px;
+        
+    }
+    .menu-item{
+        display: inline-block;
+        padding-right: 1px;
+        padding-top: 10px;
+        padding-left: 15px;
+        font-size: 15px;
+    }
+    /*-------------------------------------*/
+    .imgclose{
+        margin-top: 10px;
+       /* position: fixed;*/
+        width: 200px;
+    }
+    /*----------------------------------*/
+    .box1{
+        width: 94%;
+        margin-top: 20px;
+    }
+    /*--------------------------------------------*/
+    .allbox{
+        display: block;
+    }
+    article{
+        width: 90%;
+        margin-top: 100px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    /*-------------------------------------------------------------------*/
+    p{
+        width: 80%;  
+       font-size: 14px;
+       padding-left: 10%;
+    } 
+    h1{
+        padding-left: 20px;
+    }
+    .img2
+    {
+        padding-left: 40%;   
+    }
+
+
+}
+
+

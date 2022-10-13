@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>الوحدة الثالثة الدرس الثاني</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+        <script src="jq/jquery-3.4.1.min.js"></script>
+    </head>
+  <body>
+   <div class="menutoggle"><img src="imges/menu.png" alt=""></div>
+    <div  class="sid">
+        <header dir="rtl"> الوحدة الثالثة </header>
+          <ol dir="rtl" type="1">
+              <li class="fas"> <a href="unit3less1.html">    التعرف على الجمل الشرطية       </a>  </li>
+              <li class="fas"><a href="#">   التعرف على الحلقات التكرارية  </a> </li>
+              <li class="fas"> <a href="unit3less3.html">    التعرف على الدوال </a></li>
+              <li class="fa"><a href="unit3less4.html">    الاختبار   </a></li>
+          </ol>
+      </div>
+      <div class="ba">
+        <h1 class="p1">    التعرف على الحلقات التكرارية </h1>
+        
+      </div>
+<!------------------------------------------------------------------------->
+<div class="div">
+  <video src="videos/8.mp4" class="videos" controls  poster="imges/java1.jpg"></video>
+  </div>
+  <!-----------------------------pargraf------------------------------------------------->
+  <p dir="rtl">
+   
+  
+</p> 
+  
+<!-------------------------------------------------------------------->  
+<script type="text/javascript">
+$(document).ready(function(){
+$('.menutoggle').click(function(){
+$('ol').toggleClass('active')
+})
+})
+</script> 
+<!--------------------------------->
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+ }
+ .sid{
+    position: fixed;
+     right: 0;
+     width: 270px;
+     height: 100%;
+     background-color: rgb(26, 144, 148);
+ }.sid header{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    background-color: rgb(28, 113, 116);
+    user-select: none;
+ }
+ .sid ol a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 80px;
+    font-size: 20px;
+    color: white;
+    padding-right: 50px;
+    box-sizing: border-box;
+    border-top: 0px solid rgba(255, 255, 255, 0.637);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.637);
+    transition: .4s;
+    font-style: italic;
+ }
+ ol li:hover a{
+    padding-right: 40px;
+ }
+ 
+ .ba{
+    background-color: rgb(31, 162, 167);
+  height: 40px;
+  
+ }
+ .p1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+   
+ }
+  /*----------------*/
+  video{
+   width: 950px;
+   border-radius: 10px;
+   margin-left: 90px;
+   outline: none;
+   margin-top: 10px;
+}
+p{
+   margin-right: 300px;
+   margin-top: 40px;
+   font-size: 20px;
+   background-color: #fff9c4;
+   font-family: 'Cairo', sans-serif;
+}
+.menutoggle{
+   direction: rtl;
+   font-size: 50px;
+   padding-right: 30px;
+   background-color: #f0f4c3 ;
+   display: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+img
+   {
+      width: 0px;
+      height: 0px;
+   }
+/*--------------------------------------*/
+@media (min-width:400px) and (max-width:600px)
+{
+   /*-----------------------divsid------------------------*/
+   img
+   {
+      width: 50px;
+      height: 40px;
+   }
+  .sid
+  {
+   width: 500px;
+   height: 10%;
+   position: absolute;
+   /*transform: scaleY(0);*/
+  }
+  /*.sid.active
+  {
+    transform: scaleY(1);
+  }*/
+  /*-----------heder-----------------------*/
+  .sid header{
+   font-size: 30px;
+   line-height: 100px;
+   background-color:#9ccc65;
+   color: black;
+  }
+ /*-------------ol-------------------*/
+ ol {
+   transform: scaleY(0);
+   background-color: #dce775;
+ }
+ ol.active
+ {
+   transform: scaleY(1);
+  
+ }
+ .sid ol a{
+   display: block;
+   height: 100%;
+   width: 100%;
+   font-size: 25px;
+   color: black;
+ }
+   /*---------------div menutoggle-----------------------*/
+
+  .menutoggle{
+   display: block;
+   }
+  
+  /*-----------p1-----------------------------*/ 
+  .ba{
+   margin-top: 100px;
+   background-color: #fad193;
+   
+   }
+   .p1{
+      color: black;
+   }
+   /*-------------------------------*/
+  p{
+   margin-right: 20px;
+   margin-top: 40px;
+   font-size: 15px;
+  }
+  /*---------------------------------*/
+  video{
+   width: 400px;
+   border-radius: 10px;
+    margin-left: 10px;
+    outline: none;
+    margin-top: 10px;
+    } 
+}
+ 
+ 
+</style>
+
+
+
+
+
+
+    </body>
+</html>

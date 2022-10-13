@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+ }
+ .sid{
+    position: fixed;
+     right: 0;
+     width: 270px;
+     height: 100%;
+     background-color: rgb(26, 144, 148);
+ }.sid header{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    background-color: rgb(28, 113, 116);
+    user-select: none;
+ }
+ .sid ol a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 80px;
+    font-size: 20px;
+    color: white;
+    padding-right: 50px;
+    box-sizing: border-box;
+    border-top: 0px solid rgba(255, 255, 255, 0.637);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.637);
+    transition: .4s;
+    font-style: italic;
+ }
+ ol li:hover a{
+    padding-right: 40px;
+ }
+ 
+ .ba{
+    background-color: rgb(31, 162, 167);
+  height: 40px;
+  
+ }
+ .p1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+   
+ }
+ /*------------------------------------------------------*/
+
+     
+      .txt1{
+      padding: 1%;
+      width: 60%;
+      float: right;
+      text-align: center;
+      border-radius: 9px;
+      border: 4px solid rgba(16, 160, 129, 0.527);
+      margin-left: 20px;
+      margin-right: 180px;
+      margin-top: 40px;
+      border-color:rgb(190, 188, 25);
+      box-shadow: 0 0 8px rgb(190, 188, 25); 
+   }  
+.nt1{
+      padding: 1%;
+      width: 75%;
+      float: left; 
+      border-radius: 9px;
+      border: 2px solid rgba(16, 160, 129, 0.527);
+      margin-top: 20px;
+      margin-left: 80px;
+       font-size: 30px;
+}
+
+.b1{
+   padding: 1%;
+      width: 15%;
+      float: left; 
+      border-radius: 9px;
+      border: 2px solid white;
+      margin-top: 40px;
+      margin-left: 73%;
+       font-size: 30px; 
+       border-color:rgb(190, 188, 25);
+      box-shadow: 0 0 8px rgb(190, 188, 25);
+      background-color: white;
+      outline: none;
+}
+.b1:hover{
+   background-color:rgb(190, 188, 25) ;
+}
+.b1:hover{
+   color:white;
+   border: 2px solid white;
+   border-radius: 9px;
+}
+.count{
+     padding: 1%;
+      width: 950px;
+      height: 400px;
+      margin-left: 40px;
+      margin-top: 20px;
+      border-radius: 9px;
+      border: 2px solid rgba(16, 160, 129, 0.527);
+      border-color:rgb(190, 188, 25);
+      box-shadow: 0 0 8px rgb(190, 188, 25);
+      margin-bottom: 40px;
+}
+
+.menutoggle{
+   direction: rtl;
+   font-size: 50px;
+   padding-right: 30px;
+   background-color: #f0f4c3 ;
+   display: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+img
+{
+   width: 0px;
+   height: 0px;
+}
+/*--------------------------------------*/
+@media (min-width:400px) and (max-width:600px)
+{
+   /*-----------------------divsid------------------------*/
+   img
+   {
+      width: 50px;
+      height: 40px;
+   }
+  .sid
+  {
+   width: 500px;
+   height: 10%;
+   position: absolute;
+   /*transform: scaleY(0);*/
+  }
+  /*.sid.active
+  {
+    transform: scaleY(1);
+  }*/
+  /*-----------heder-----------------------*/
+  .sid header{
+   font-size: 30px;
+   line-height: 100px;
+   background-color:#9ccc65;
+   color: black;
+  }
+ /*-------------ol-------------------*/
+ ol {
+   transform: scaleY(0);
+   background-color: #dce775;
+ }
+ ol.active
+ {
+   transform: scaleY(1);
+  
+ }
+ .sid ol a{
+   display: block;
+   height: 100%;
+   width: 100%;
+   font-size: 25px;
+   color: black;
+ }
+   /*---------------div menutoggle-----------------------*/
+
+  .menutoggle{
+   display: block;
+   }
+  
+  /*-----------p1-----------------------------*/ 
+  .ba{
+   margin-top: 100px;
+   background-color: #fad193;
+   
+   }
+   .p1{
+      color: black;
+   }
+   /*-------------------------------*/
+   .count{
+      padding: 1%;
+       width: 450px;
+       height: 400px;
+       margin-left: 10px;
+       margin-top: 20px;
+       margin-bottom: 40px;
+ }
+ .b1{
+    width: 20%;
+ } 
+ .nt1{
+   padding: 1%;
+   width: 90%;
+   margin-top: 20px;
+   margin-left: 10px;
+    font-size: 20px;
+}
+.txt1{
+   padding: 1%;
+   width: 80%;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 40px;
+   border-color:rgb(190, 188, 25);
+   box-shadow: 0 0 8px rgb(190, 188, 25); 
+}
+}
+ 
+ 
+
+ 

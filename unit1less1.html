@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>الوحدة الاولى الدرس الاول</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+        <script src="jq/jquery-3.4.1.min.js"></script>
+        <link rel="stylesheet" href="unit1less1.css">
+    </head>
+<body>
+ <!---------------------------------------> 
+ <div class="menutoggle"><img src="imges/menu.png" alt=""></div>
+ <div  class="sid ">
+  <header dir="rtl"> الوحدة الاولى </header>
+  
+    <ol dir="rtl" type="1">
+        <li class="fas"> <a href="#">  الصيغة العامّة لكتابة جملة         </a>  </li>
+        <li class="fas"><a href="unit1less2.html">   جمل التحكُّم و Print و Println   </a> </li>
+        <li class="fas"> <a href="unit1less3.html">    كتابة أوَّل برنامج بلغة الجافا </a></li>
+    </ol>
+</div>
+<div class="ba">
+  <h1 class="p1">   الصيغة العامّة لكتابة جملة   </h1>
+  
+</div>
+<!--------------------------------video-------------------------------->
+<div class="div">
+<video src="videos/1.mp4" class="videos" controls  poster="imges/java1.jpg"></video>
+</div>
+<!-----------------------------pargraf------------------------------------------------->
+<!-----
+<p dir="rtl">
+* استخدام الوسم script في html5 
+  <br>أولا، انتقل إلى موقع الاختبار الخاص بك وإنشاء مجلد جديد يسمى 'scripts' (بدون علامات الاقتباس). ثم، داخل مجلد scripts الجديد 
+  الذي قمت بإنشائه، إنشاء ملف جديد يسمى main.js. إحفظه في مجلد scripts.
+  بعد ذلك، في ملف index.html، أدخل العنصر التالي في سطر جديد قبل علامة الإغلاق مباشرة
+  هذا بكل بساطة يعمل كما يعمل <link> للـCSS، يقوم بإضافة الجافاسكربت للصفحة، لترى التأثيرات على الصفحة.
+  الآن اضف هذا الكود الى ملف main.js
+  لآن تأكد أنك حفظت التعديلات على ملف HTML و الجافاسكربت. ثم قم بفتح ملف الHTML بالمتصفح،
+ <br>
+  
+
+</p>
+-->
+<!------------------------------------------------------------------------>  
+<!-----
+ <div class=" ca">
+   <div class="tab">
+    
+    <button class="tablinks tablinks1" onclick="openCity(event, 'London')">video</button>
+    <button class="tablinks tablinks2" onclick="openCity(event, 'Paris')">Explanation</button>
+  </div>
+  <p class="p12">الدرس الاول</p>-->
+   <!----- <div class="classsmal cl">
+      <button>video
+      </button>
+      <button >file</button>
+      
+    </div>
+    <p>الدرس الاول</p>-->
+    <!----------------------------------------->
+    <!----
+    <div id="London" class="tabcontent">
+    <video src="videos/videojav.mp4" id="video"></video>
+   </div>-->
+    <!------------------------------------>
+    <!-------
+    <div id="Paris" class="tabcontent">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p> 
+    </div> 
+
+</div>---->
+    <!------------------------------------>
+    
+<!---------------------------------------------->
+<!--------
+<script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+</script>--->
+<!------------------------------------------------------------------->
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.menutoggle').click(function(){
+    $('ol').toggleClass('active')
+  })
+})
+</script>
+
+
+ </body>
+</html>

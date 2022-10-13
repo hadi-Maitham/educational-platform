@@ -1,0 +1,322 @@
+
+
+  /* background-color: rgb(241, 241, 241);*/
+ 
+
+
+/*.classall{
+   float: right;
+   border: 1px solid black;
+   padding-bottom: 200px;
+  margin-right: 332px;*
+   border: 1px solid rgb(211, 12, 12);
+  padding-right: 120px;
+  background-color: bisque;
+ 
+}*/
+/*---------------------summary----------------*/
+
+ 
+
+
+/*----------------------------------------------------
+.bo1{
+   background-color: inherit;
+   float: left;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 14px 16px;
+   background-color: #5dd4c8;
+   transition: 0.3s;
+   font-size: 10px;
+   width: 69.3px;
+   
+   color: white; 
+    
+}
+
+.ca{
+   border: 1px solid rgb(189, 188, 188);
+   height: 500px;
+   margin-right: 400px;
+   margin-left: 20px;
+   margin-top: 60px;
+   padding-bottom: 220px;
+}
+.cans{
+   background-color: chocolate;
+   float: right;
+   margin-right: 20px;
+   padding-right: 30px;
+   padding-left: 30px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+summary{
+   background-color: cyan;
+}
+.cl{
+   background-color: rgb(255, 255, 255);
+   padding-left: 20px;
+   margin-top: 60px;
+   margin-left: 70px;
+   margin-right: 60px;
+   border: 2px solid rgb(255, 255, 255);
+   border-radius: 15px;
+}*/
+
+/* #video{
+   width: 750px;
+   border-radius: 30px;
+   border: 10px solid rgb(255, 255, 255);
+   margin-top: 50px;
+   margin-left: 70px;  
+}*/
+/*button{
+   margin-left: 50px;
+   width: 300px;
+   font-size: 40px;
+   padding-right: 10px;
+   background-color: rgb(255, 255, 255);
+   border: 0 solid rgb(255, 255, 255);
+   
+}*/
+/*button:focus {
+   outline: none;
+ }*/
+ /*.p12{
+background-color: rgb(254,107,68);
+color:#01579b ;
+color: rgb(255, 255, 255);
+color: rgb(27,192,157);
+font-size: 25px;
+width: 150px;
+float: right;
+font-family: 'El Messiri', sans-serif; 
+margin-top: 40px;
+padding-top: 10px;
+padding-left: 20px;
+padding-bottom: 10px;
+ }/*----------------------------------------------*/
+/*
+.tab {
+   overflow: hidden;
+   border: 1px solid rgb(241, 241, 241);
+   background-color: rgb(241, 241, 241);
+   margin-left: 100px;
+   margin-right: 150px;
+   border-radius: 15px;
+ }
+ .tab button {
+   background-color: inherit;
+   float: left;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 14px 16px;
+  background-color: #5dd4c8;
+  background-color: #c7d63a ;
+   transition: 0.3s;
+   font-size: 17px;
+   width: 336.3px;
+   margin-top: 60px;
+   color: white;
+ }
+ .tablinks1{
+   border-radius: 15px 0 0 15px ;
+ }
+.tablinks2{
+   border-radius: 0 15px 15px 0 ;  
+}
+.tab button:hover {
+   background-color: rgb(254,107,68);
+   color: white;
+   color:#01579b ;
+ }
+ .tab button:focus {
+   background-color: #f06292;
+   color: white;
+ }*/
+ /*------------------------------------------*/
+/*----------------hide and show---------------------------*/
+ /*.tabcontent{
+    display: none;
+ }
+ #Paris{
+   margin-top: 300px;
+ }*/
+ /*--------------------------الجانب الايمن----------------------------------------*/
+
+ *{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+}
+.sid{
+   position: fixed;
+    right: 0;
+    width: 270px;
+    height: 100%;
+    /*background-color: rgb(26, 144, 148);*/
+     background-color: rgb(33, 43, 51);
+
+     
+}.sid header{
+   font-size: 35px;
+   color: white;
+   text-align: center;
+   line-height: 200px;
+  /* background-color: rgb(28, 113, 116);*/
+   background-color: rgba(64, 80, 97, 0.767);
+   user-select: none;
+   font-family: 'Cairo', sans-serif;
+}
+.sid ol a{
+   display: block;
+   height: 100%;
+   width: 100%;
+   line-height: 80px;
+   font-size: 20px;
+   color: white;
+   padding-right: 50px;
+   box-sizing: border-box;
+   border-top: 0px solid rgba(255, 255, 255, 0.637);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.637);
+   transition: .4s;
+   font-style: italic;
+}
+ol li:hover a{
+   padding-right: 40px;
+}
+
+.ba{
+  /* background-color: rgb(31, 162, 167);*/
+  background-color: rgb(46, 61, 73);
+ height: 40px;
+ 
+}
+.p1{
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   padding: 10px 20px;
+}
+/*--------------vides-----------------------------*/
+/*video{
+   width: 550px;
+   border-radius: 10px;
+   margin-left: 250px;
+   outline: none;
+   margin-top: 10px;
+}
+*/
+video{
+   width: 950px;
+   border-radius: 10px;
+   margin-left: 90px;
+   outline: none;
+   margin-top: 10px;
+}
+p{
+   margin-right: 300px;
+   margin-top: 40px;
+   font-size: 20px;
+   background-color: #fff9c4;
+   font-family: 'Cairo', sans-serif;
+}
+.menutoggle{
+   direction: rtl;
+   font-size: 50px;
+   padding-right: 30px;
+   background-color: #f0f4c3 ;
+   display: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+img
+{
+   width: 0px;
+   height: 0px;
+}
+/*--------------------------------------*/
+@media (min-width:400px) and (max-width:600px)
+{
+   /*-----------------------divsid------------------------*/
+   img
+{
+   width: 50px;
+   height: 40px;
+}
+  .sid
+  {
+   width: 500px;
+   height: 10%;
+   position: absolute;
+   /*transform: scaleY(0);*/
+  }
+  /*.sid.active
+  {
+    transform: scaleY(1);
+  }*/
+  /*-----------heder-----------------------*/
+  .sid header{
+   font-size: 30px;
+   line-height: 100px;
+   background-color:#9ccc65;
+   color: black;
+  }
+ /*-------------ol-------------------*/
+ ol {
+   transform: scaleY(0);
+   background-color: #dce775;
+ }
+ ol.active
+ {
+   transform: scaleY(1);
+  
+ }
+ .sid ol a{
+   display: block;
+   height: 100%;
+   width: 100%;
+   font-size: 25px;
+   color: black;
+ }
+   /*---------------div menutoggle-----------------------*/
+
+  .menutoggle{
+   display: block;
+   }
+  
+  /*-----------p1-----------------------------*/ 
+  .ba{
+   margin-top: 100px;
+   background-color: #fad193;
+   
+   }
+   .p1{
+      color: black;
+   }
+   /*-------------------------------*/
+  p{
+   margin-right: 20px;
+   margin-top: 40px;
+   font-size: 15px;
+  }
+  /*---------------------------------*/
+  
+   video{
+   width: 400px;
+   border-radius: 10px;
+    margin-left: 10px;
+    outline: none;
+    margin-top: 10px;
+ 
+   } 
+  
+
+}  
+
+
